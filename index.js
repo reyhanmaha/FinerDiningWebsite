@@ -28,7 +28,7 @@ app.use(express.static("public"));
 
 
 app.get("/",(req,res)=>{
-    res.render("index");
+    res.render("index.html");
 });
 
 app.get("/FineDiningMenu",(req,res)=>{
